@@ -1,0 +1,29 @@
+p {
+    color: rgb(10, 10, 10);}
+  
+    .grid-container-resto {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: repeat(3, 300px);
+
+    
+    .restouno {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        border: 1px black solid;
+    }
+    
+    .restocuatro {
+        grid-column: 1/4;
+        grid-row: 3/5;
+        border: 1px black solid;
+    }
+    
+    .restodos {
+        border: 1px black solid;
+    }
+    
+    .restotres {
+        border: 1px black solid;
+    }
+}  
