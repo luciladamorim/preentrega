@@ -1,0 +1,42 @@
+header {
+    @include estilos-header();
+    
+    div {
+        display: inline-block;
+
+        img {
+            vertical-align: middle;
+        }
+        .logo {
+            width: 100px;
+        }
+    }
+
+    nav {
+        @include estilos-header ();
+        
+        ul {
+            @include estilos-header ();
+           
+            li {
+                @include estilos-header ();
+                
+                a {
+                    text-decoration: none;
+                    color: $color-ppal;
+                }
+            }
+        }
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
