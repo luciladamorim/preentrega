@@ -5,14 +5,14 @@ h3 {
 .miliuno .milidos .militres{
     width: 1150px;
     height: 539px;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 
 .maruno .mardos .martres{
     width: 1150px;
     height: 539px;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 
@@ -20,8 +20,8 @@ h3 {
 .soluno .soldos .soltres{
     width: 1150px;
     height: 539px;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 .mili p {
-    font-family: "Roboto", sans-serif;}
+    font-family: $tipografia-ppal;}

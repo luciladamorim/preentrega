@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1132px) {
+    header nav {
+    display: flex;
+    flex-direction: column;
+    
+    ul li {
+    margin: 20px auto;
+    list-style: none;
+    
+    a {
+    align-items: center;
+    margin: auto;
+           }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+        .habitaciones,
+        .restaurante,
+        .chiringuito,
+        .nosotros {
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+        .habitaciones img {
+        max-width: 85%;
+        }
+        
+        .restaurante img {
+        max-width:80%;
+        }
+        
+        .chiringuito img {
+        max-width:75%;
+        }
+        
+        .nosotros img.map{
+        max-width:100% }
+        
+        }
+        
+

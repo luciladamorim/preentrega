@@ -16,14 +16,14 @@ p {
     .restocuatro {
         grid-column: 1/4;
         grid-row: 3/5;
-        border: 1px black solid;
+        border: 1px $color-ppal solid;
     }
     
     .restodos {
-        border: 1px black solid;
+        border: 1px $color-ppal solid;
     }
     
     .restotres {
-        border: 1px black solid;
+        border: 1px $color-ppal solid;
     }
 }  

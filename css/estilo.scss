@@ -1,5 +1,8 @@
 @import "./partials/reset";
 @import "./partials/body";
+@import "./partials/variables";
+@import "./partials/mixin";
+@import "./partials/extend";
 @import "./partials/header";
 @import "./partials/maininicio";
 @import "./partials/mainhabitaciones";
@@ -7,4 +10,6 @@
 @import "./partials/mainchiringuito";
 @import "./partials/maincontacto";
 @import "./partials/footer";
+
+@import "./partials/mediaqueries";
 

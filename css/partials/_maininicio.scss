@@ -1,13 +1,13 @@
 h1 {
-    color: rgb(15, 2, 28);
-    font-family: "Roboto", sans-serif;
+    color: $color-ppal;
+    font-family: $tipografia-ppal;
     font-weight: 900;
     font-style: normal;
     text-align: center;
 }
 
 p {
-    color: rgb(10, 10, 10);
+    color: $color-ppal;
 
 }
 
@@ -25,19 +25,19 @@ img {
 .grid-item-uno {
     grid-column: 1/3;
     grid-row: 1/3;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 .grid-item-dos {
     grid-column: 3/4;
     grid-row: 1/3;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 .grid-item-tres {
     grid-column: 4/5;
     grid-row: 1/3;
-    border: 2px black solid;}
+    border: 2px $color-ppal solid;}
 
 }
 
@@ -53,20 +53,19 @@ div {
 
 p {
     font-size: medium;
-    color: black;
+    color: $color-ppal;
 }
 
 .habitaciones {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %componentes
 }
+
 
 .habitacionfoto {   
     width: 680px;
     height: 400px;
     border-radius: 15px;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 .habitaciones img {
@@ -78,9 +77,7 @@ p {
 
 
 .restaurante {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %componentes
 }
 
 
@@ -88,7 +85,7 @@ p {
     width: 570px;
     height: 400px;
     border-radius: 15px;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 .restaurante img {
@@ -99,9 +96,7 @@ p {
 }
 
 .chiringuito {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %componentes
 }
 
 
@@ -109,7 +104,7 @@ p {
     width: 680px;
     height: 400px;
     border-radius: 15px;
-    border: 2px black solid;
+    border: 2px $color-ppal solid;
 }
 
 .chiringuito img {
@@ -122,15 +117,13 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
-.mas { color: black; text-decoration: none; padding: 5px;
-    background-color: rgb(207, 230, 230); border: 1px solid black;
+.mas { color: $color-ppal; text-decoration: none; padding: 5px;
+    background-color: rgb(207, 230, 230); border: 1px solid $color-ppal;
 }
 }
 
 .nosotros {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %componentes;
 
 
 
@@ -142,6 +135,6 @@ h3 {
 }
 
 
-.masmas { color: black; text-decoration: none; padding: 5px;
-        background-color: beige; border: 1px solid black;
+.masmas { color:$color-ppal; text-decoration: none; padding: 5px;
+        background-color: beige; border: 1px solid $color-ppal;
         }   }
