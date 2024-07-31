@@ -13,14 +13,14 @@ footer h4 {
     margin-top: 16px;
 }
 
-.miliuno .milidos .militres {
+.miliuno, .milidos, .militres {
     width: 1150px;
     height: 539px;
     border: 2px $color-ppal solid;
 }
 
 
-.maruno .mardos .martres {
+.maruno, .mardos, .martres {
     width: 1150px;
     height: 539px;
     border: 2px $color-ppal solid;
@@ -28,7 +28,7 @@ footer h4 {
 
 
 
-.soluno .soldos .soltres {
+.soluno, .soldos, .soltres {
     width: 1150px;
     height: 539px;
     border: 2px $color-ppal solid;

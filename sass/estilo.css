@@ -194,19 +194,19 @@ footer h4 {
   margin-top: 16px;
 }
 
-.miliuno .milidos .militres {
+.miliuno, .milidos, .militres {
   width: 1150px;
   height: 539px;
   border: 2px rgb(15, 2, 28) solid;
 }
 
-.maruno .mardos .martres {
+.maruno, .mardos, .martres {
   width: 1150px;
   height: 539px;
   border: 2px rgb(15, 2, 28) solid;
 }
 
-.soluno .soldos .soltres {
+.soluno, .soldos, .soltres {
   width: 1150px;
   height: 539px;
   border: 2px rgb(15, 2, 28) solid;
