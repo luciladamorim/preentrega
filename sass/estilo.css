@@ -184,6 +184,16 @@ h3 {
   font-weight: 600;
 }
 
+footer h3 {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+footer h4 {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
 .miliuno .milidos .militres {
   width: 1150px;
   height: 539px;
